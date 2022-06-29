@@ -19,7 +19,7 @@ use App\Http\Controllers\SingleActionController;
 */
 Route::get('/register',[RegistrationController::class,'index']);
     Route::post('/register',[RegistrationController::class,'register']);
-// Route::get('/',[DemoController::class,'index']);  
+Route::get('/',[DemoController::class,'index']);  
 // Route::get('/about',[DemoController::class, 'about']);
 // Route::get('/courses', SingleActionController::class);
 // Route::resource('photo',PhotoController::class);

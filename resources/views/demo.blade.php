@@ -1,3 +1,3 @@
-<h1>This Is demo Page</h1>
-
-
+<div class="container">
+    <h1>This is laravel Project</h1>
+</div>
