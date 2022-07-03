@@ -81,7 +81,7 @@
     
     <thead>
         <tr>
-            <th>No.</th>
+       
             <th>
                 Name
             </th>
@@ -105,7 +105,7 @@
     <tbody>
         @foreach ($enquiryData as $item)
         <tr>
-            <td>{{$item->enquiry_id}}</td>
+           
             <td>{{$item->name}}</td>
             <td>{{$item->cname}}</td>
             <td>{{$item->phone}}</td>
